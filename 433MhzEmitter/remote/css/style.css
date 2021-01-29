@@ -1,0 +1,41 @@
+html,
+.fullscreen {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: white;
+  margin: 5% 5%;
+}
+
+.on {
+  background-color: #00ff00;
+}
+.off {
+  background-color: #ff0000;
+}
+
+#response_div {
+  color: #ff0000;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}

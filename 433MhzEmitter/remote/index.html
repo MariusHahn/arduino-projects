@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Remote</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+</script>
+
+<body>
+    <div id=response_div></div>
+    <iframe id=response name=response style="display: none;"></iframe>
+    <form action="/emitter" method=post>
+        <div id=keyboard>
+            <button class="on" type=submit name=code value=2221916 formtarget=response></button>
+            A
+            <button class="off" type=submit name=code value=2416012 formtarget=response></button>
+            <button class="on" type=submit name=code value=2126053 formtarget=response></button>
+            B
+            <button class="off" type=submit name=code value=2263253 formtarget=response></button>
+            <button class="on" type=submit name=code value=2416014 formtarget=response></button>
+            C
+            <button class="off" type=submit name=code value=2309998 formtarget=response></button>
+            <button class="on" type=submit name=code value=2263255 formtarget=response></button>
+            D
+            <button class="off" type=submit name=code value=2126055 formtarget=response></button>
+        </div>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
