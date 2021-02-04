@@ -13,7 +13,7 @@ html,
 button {
   border: none;
   color: white;
-  margin: 5% 5%;
+  margin: 6px 6px;
   box-shadow: 0 5px #999;
   border-radius: 5px;
   cursor: pointer;
