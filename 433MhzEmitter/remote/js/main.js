@@ -1,11 +1,3 @@
-window.onload = () => {
-    'use strict';
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('./js/sw.js');
-    }
-}
-
 function getResponseIframe() {
     return document.getElementById("response")
 }
